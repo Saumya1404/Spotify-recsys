@@ -1,0 +1,7 @@
+{
+  "name": "neo4j-codespace",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "features": {},
+  "postCreateCommand": "pip install neo4j pandas",
+  "forwardPorts": [7474, 7687]
+}
